@@ -1,0 +1,9 @@
+1. Ý nghĩa các câu lệnh
+- git init: Khởi tạo một repository Git mới trong thư mục hiện tại.
+- git add <file_name>: Thêm một file cụ thể vào khu vực staging area
+- git add .: Thêm tất cả file mới hoặc đã thay đổi trong thư mục hiện tại và các thư mục con vào staging area.
+- git commit -m"message": Tạo một commit mới với mô tả commit
+2. 
+Working Directory: file 2, file 3
+Staging Area: file 1
+Repository: file 1
