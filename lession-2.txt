@@ -3,7 +3,8 @@
 - git add <file_name>: Thêm một file cụ thể vào khu vực staging area
 - git add .: Thêm tất cả file mới hoặc đã thay đổi trong thư mục hiện tại và các thư mục con vào staging area.
 - git commit -m"message": Tạo một commit mới với mô tả commit
-2. 
-Working Directory: file 2, file 3
-Staging Area: file 1
-Repository: file 1
+2. Tạo 3 files: file1, file2, file3
+- Local: file1, file2, file3
+- Working Directory: file2, file3
+- Staging Area: file1
+- Repository: file 1
