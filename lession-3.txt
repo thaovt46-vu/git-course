@@ -1,0 +1,26 @@
+1. Giải thích các câu lệnh:
+- git commit --amend: Dùng để sửa commit gần nhất.
+- git commit --amend -m”<message>”: Sửa commit cuối chỉ định trực tiếp message mới
+- git restore --staged <file>: Đưa từ vùng staging về working directory
+- git reset HEAD~1: Đưa từ vùng repository về working directory (uncommit), quay lại commit trước gần nhất
+2. Tạo 3 file: file1, file2, file3
+- Local: file1, file2, file3
+Chạy lệnh: git add file1
+- Staging: file1
+Chạy lệnh: git commit -m”add file”
+- Repository: file1
+Chạy lệnh: git add .
+- Staging: file2,file3
+Chạy lệnh: git restore --staged file2
+- Local: file2
+Chạy lệnh: git commit -m”add all files”
+- Staging: file3
+git reset HEAD~1
+- Repository: file1
+- Local: file2, file3
+3. 
+- Tạo file file1.txt, file2.txt, oops/file3.txt ==> local: file1.txt, file2.txt, oops/file3.txt
+- Thêm file .gitignore, thêm vào 2 dòng: file1.tx and oops/
+- git add . :Staging - file2.txt
+git commit -m"init project"
+- Repository: file2.txt
