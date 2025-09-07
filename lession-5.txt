@@ -1,0 +1,13 @@
+1. Cấu trúc DOM cơ bản của một trang web
+- <!DOCTYPE html> → Khai báo loại tài liệu.
+- <html> → Thẻ gốc của tài liệu HTML.
+- <head> → Chứa metadata (tiêu đề, CSS, JS, charset, SEO info…).
+- <body> → Chứa toàn bộ nội dung hiển thị (text, hình ảnh, bảng, form…).
+
+2. Cấu trúc HTML của một bảng (table)
+- <table> → Thẻ chứa toàn bộ bảng.
+- <thead> → Phần đầu bảng (header).
+- <tr> (table row) → Một hàng trong bảng.
+- <th> (table header) → Ô tiêu đề (thường in đậm, căn giữa).
+- <tbody> → Phần thân bảng (dữ liệu chính).
+- <td> (table data) → Ô dữ liệu trong bảng.
